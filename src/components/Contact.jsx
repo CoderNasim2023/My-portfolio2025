@@ -8,10 +8,10 @@ function Contact() {
       label: "📧 Email",
       value: (
         <a
-          href="mailto:shreenp1410@gmail.com"
+          href="mailto: Connectmdnaismakhtar22@gmail.com"
           className="text-blue-400 hover:text-blue-600 underline"
         >
-          shreenp1410@gmail.com
+          Connectmdnaismakhtar22@gmail.com
         </a>
       ),
     },
@@ -19,10 +19,10 @@ function Contact() {
       label: "📱 Phone",
       value: (
         <a
-          href="tel:+918920750507"
+          href="tel:+918371938543"
           className="text-blue-400 hover:text-blue-600 underline"
         >
-          +91 8920750507
+          +91 8371938543
         </a>
       ),
     },
@@ -30,12 +30,12 @@ function Contact() {
       label: "🔗 LinkedIn",
       value: (
         <a
-          href="https://www.linkedin.com/in/shreen-pandey-536280257/"
+          href="https://www.linkedin.com/in/mdnasimakhtar"
           className="text-blue-400 hover:text-blue-600 underline"
           target="_blank"
           rel="noreferrer"
         >
-          /shreen-pandey
+          /Md Nasim Akhtar
         </a>
       ),
     },
@@ -43,12 +43,12 @@ function Contact() {
       label: "💻 GitHub",
       value: (
         <a
-          href="https://github.com/shreenn"
+          href="https://github.com/CoderNasim2023"
           className="text-blue-400 hover:text-blue-600 underline"
           target="_blank"
           rel="noreferrer"
         >
-          /shreenn
+          /CoderNasim2023
         </a>
       ),
     },
@@ -69,8 +69,8 @@ function Contact() {
       {/* Glass Box */}
       <div className="relative z-10 backdrop-blur-md bg-black/40 border border-white/20 rounded-3xl p-10 md:p-14 w-[90%] md:w-[60%] max-w-[750px] shadow-xl flex flex-col items-center justify-center">
         <h1 className="text-white text-4xl md:text-5xl font-bold mb-8 drop-shadow-[0_0_10px_#ff0044] text-center">
-          CONTACT ME
-        </h1>
+            Get In Touch       
+             </h1>
 
         <Carousel
           showArrows={true}

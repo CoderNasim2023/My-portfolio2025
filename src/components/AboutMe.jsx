@@ -98,12 +98,12 @@ function AboutMe() {
       {/* Left Character Image */}
       <div 
         ref={imageRef}
-        className="absolute left-[10%] bottom-0 z-10 w-[35%] h-[90%] flex items-end"
+        className="absolute left-[10%] bottom-0 z-10 w-[35%] h-[90%] flex items-end "
       >
         <img
-          src="./imag.png"
-          alt="Shreen Pandey"
-          className="h-full object-contain transition-all duration-300 hover:scale-105"
+          src="./mebg.png"
+          title="Md Nasim Akhtar"
+          className="h-full object-contain transition-all duration-300 hover:scale-105 hover:rotate-2 "
         />
       </div>
 
@@ -124,7 +124,7 @@ function AboutMe() {
         </div>
 
         {/* Details */}
-        <div className="mt-4">
+        <div className="mt-5">
           <h3 
             ref={addToElements}
             className="text-[#666666] text-lg font-bold mb-2 font-gta"
@@ -135,7 +135,7 @@ function AboutMe() {
             ref={addToElements}
             className="text-sm leading-relaxed text-gray-300 font-helvetica"
           >
-            A passionate engineer with a love for AI, web development, and solving real-world problems. I'm currently a 3rd-year CSE undergrad at DTU, always curious and always building.
+            A passionate engineer with a love for, web development, Android Devlopement and solving real-world problems. I'm currently a 2nd-year   BCA undergrad at Makaut, always curious and always building.
           </p>
         </div>
 
@@ -168,14 +168,15 @@ function AboutMe() {
           </div>
         </div>
 
-        {/* Info Section */}
+        {/* Internship Section */}
         <div className="mt-6 text-sm text-gray-200 space-y-2 font-mono">
-          <p ref={addToElements}>
-            👩‍💻 Intern-ing @ <span className="text-white font-semibold">Sonic Nat Technologies Pvt. Ltd.</span> — Building an AI-based virtual sales agent.
-          </p>
           <p ref={addToElements}>
             👩‍💻 Intern-ed @ <span className="text-white font-semibold">Tasklance Analytics</span> — Generative AI is cool, eh.
           </p>
+          <p ref={addToElements}>
+            👩‍💻 Intern-ing @ <span className="text-white font-semibold">Bharat Intern Pvt. Ltd.</span> — Built an Real time Weather Information showing website
+          </p>
+          
         </div>
 
         

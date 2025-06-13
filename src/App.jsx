@@ -158,14 +158,14 @@ function App() {
               />
               <div className="text text-white flex flex-col gap-1/2 absolute top-20 left-1/2 -translate-x-1/2 scale-[1.4] rotate-[-10deg]">
                 {/* <h1 className="text-[12rem] leading-none -ml-20">I'm</h1> */}
-                <h1 className="text-[12rem] leading-none ml-20">Shreen</h1>
-                <h1 className="text-[12rem] leading-none -ml-20">Pandey</h1>
+                <h1 className="text-[12rem] leading-none ml-20">Nasim </h1>
+                <h1 className="text-[12rem] leading-none -ml-20">Akhtar</h1>
               </div>
               <img
                 className="absolute character bottom-0 left-1/2 translate-x-1/2"
-                src="./girlbg.png"
-                alt=""
-                style={{ width: "30%", height: "85%", objectFit: "contain" }}
+                src="./mebg.png"
+                title="Hi Myself Md Nasim Akhtar 2nd year BCA grad"
+                style={{ width: "40%", height: "85%", objectFit: "contain" }}
               />
             </div>
             <div className="btmbar text-white absolute bottom-0 left-0 w-full py-15 px-10 bg-gradient-to-t from-black to-transparent">
