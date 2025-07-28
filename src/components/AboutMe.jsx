@@ -171,11 +171,11 @@ function AboutMe() {
         {/* Internship Section */}
         <div className="mt-6 text-sm text-gray-200 space-y-2 font-mono">
           <p ref={addToElements}>
-            👩‍💻 Intern-ed @ <span className="text-white font-semibold">Tasklance Analytics</span> — Generative AI is cool, eh.
-          </p>
-          <p ref={addToElements}>
-            👩‍💻 Intern-ing @ <span className="text-white font-semibold">Bharat Intern Pvt. Ltd.</span> — Built an Real time Weather Information showing website
-          </p>
+            👩‍💻 Intern-ed @ <span className="text-white font-semibold"> Former Web developer at Bharat Intern Pvt. Ltd.</span> — Built an Real time react js   Weather  information showing website
+            </p>
+            {/* <p ref={addToElements}>
+              👩‍💻 Intern-ed @ <span className="text-white font-semibold">Tasklance Analytics</span> — Generative AI is cool, eh.
+            </p> */}
           
         </div>
 
