@@ -146,47 +146,61 @@ function App() {
             <div className="imagesdiv relative overflow-hidden w-full h-screen">
               <img
                 className="absolute sky scale-[1.5] rotate-[-20deg] top-0 left-0 w-full h-full object-cover"
-                src="./sky.png"
+                src=".bg.png"
                 alt=""
-                style={{ width: "100%", height: "auto", objectPosition: "center top" }}
+                style={{
+                  width: "100%",
+                  height: "auto",
+                  objectPosition: "center top",
+                }}
               />
               <img
                 className="absolute scale-[1.8] rotate-[-3deg] bg top-0 left-0 w-full h-full object-cover"
                 src="./bg.png"
                 alt=""
-                style={{ width: "100%", height: "auto", objectPosition: "center top" }}
+                style={{
+                  width: "100%",
+                  height: "auto",
+                  objectPosition: "center top",
+                }}
               />
               <div className="text text-white flex flex-col gap-1/2 absolute top-20 left-1/2 -translate-x-1/2 scale-[1.4] rotate-[-10deg]">
-                {/* <h1 className="text-[12rem] leading-none -ml-20">I'm</h1> */}
                 <h1 className="text-[12rem] leading-none ml-20">Nasim </h1>
                 <h1 className="text-[12rem] leading-none -ml-20">Akhtar</h1>
               </div>
               <img
                 className="absolute character bottom-0 left-1/2 translate-x-1/2"
                 src="./mebg.png"
-                title="Hi Myself Md Nasim Akhtar 2nd year BCA grad"
-                style={{ width: "40%", height: "85%", objectFit: "contain" }}
+                title="Hi I'm Nasim"
+                style={{ width: "40%", height: "83%", objectFit: "contain" }}
               />
             </div>
             <div className="btmbar text-white absolute bottom-0 left-0 w-full py-15 px-10 bg-gradient-to-t from-black to-transparent">
-              <div className="flex gap-4 items-center">
+              <div
+                className="flex gap-4 items-center cursor-pointer"
+                onClick={() => {
+                  const contactSection = document.getElementById("contact");
+                  if (contactSection) {
+                    contactSection.scrollIntoView({ behavior: "smooth" });
+                  }
+                }}
+              >
                 <i className="text-4xl ri-arrow-down-line"></i>
                 <h3 className="text-xl font-[Helvetica_Now_Display]">
-                  Scroll Down
+                  Click To Down
                 </h3>
               </div>
-              <img
+
+              {/* <img
                 className="absolute h-[55px] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
                 src="./ps5.png"
                 alt=""
-              />
+              /> */}
             </div>
           </div>
-          
 
-            
-                  <AboutMe />
-                  <Contact />
+          <AboutMe />
+          <Contact />
         </div>
       )}
     </>
